@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="Styles.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<title></title>
+</head>
+<body>
+
+<header>
+
+	<div class="container">
+		<img class="logo" src="images/Logo.png" alt="logo" class="logo">
+		<nav>
+			<ul class="navbuttons">
+				<li id="home"><a href="">Home</a></li>
+				<li id="about"><a href="">About</a></li>
+				<li id="blog"><a href="">Blog</a></li>
+				<li id="contact"><a href="">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+
+</header>
+
+	<div class="w3-content w3-section" 
+	style="max-width: 1920px; 
+	max-height: 800px; 
+	background-color: white;
+	margin: 0px !important;">
+		<img class="myslides w3-animate-fading" src="images/Hello.png" alt="Hello">
+		<img class="myslides w3-animate-fading" src="images/Bonjour.png" alt="Bonjour">
+		<img class="myslides w3-animate-fading" src="images/Nihao.png" alt="Nihao">
+	</div>
+
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("myslides");
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  myIndex++;
+	  if (myIndex > x.length) {myIndex = 1}    
+	  x[myIndex-1].style.display = "block";  
+	  setTimeout(carousel, 9000);    
+	}
+	</script>
+
+</body>
+</html>

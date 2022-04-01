@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	background: teal;
+}
+
+header {
+	background: #043434;
+	height: 80px;
+
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.container {
+
+}
+
+.logo {
+	border: 3px solid white;
+	float: left;
+	width: 200px;
+	height: 60px;
+	padding: 5px;
+	margin: 10px;
+}
+
+.navbuttons {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+nav {
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 100px;
+}
+
+nav a {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 80px;
+	transition-duration: 0.8s;
+}
+
+nav a:hover {
+	font-size: 20px;
+	text-decoration: underline 5px;
+	transition-duration: 0.8s;
+}
+
+nav a:focus {
+	font-size: 20px;
+	text-decoration: underline 5px;
+	transition-duration: 0.8s;
+}
+
+img {
+	width: 1900px;
+	height: 800px;
+}
