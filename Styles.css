@@ -43,6 +43,14 @@ nav li {
 	margin-right: 100px;
 }
 
+#home {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 80px;
+}
+
 nav a {
 	color: white;
 	text-transform: uppercase;
@@ -55,16 +63,82 @@ nav a {
 nav a:hover {
 	font-size: 20px;
 	text-decoration: underline 5px;
-	transition-duration: 0.8s;
 }
 
 nav a:focus {
 	font-size: 20px;
 	text-decoration: underline 5px;
-	transition-duration: 0.8s;
 }
 
 img {
 	width: 1900px;
 	height: 800px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 70px 70px 550px;
+	padding-top: 20px;
+}
+
+.header {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.skill {
+	color: white;
+	text-align: center;
+}
+
+p {
+	padding: 10px 50px;
+	color: white;	
+}
+
+.footer {
+	margin-bottom: 0px;
+	background-color: white;
+	position: absolute;
+}
+
+ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.social {
+	height: 150px;
+	width: 1920px;
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 0;
+	margin-left: 820px;
+	padding-top: 30px;
+	padding-left: 0px;
+}
+
+.icons {
+	height: 40px;
+	width: 40px;
+}
+
+.foot1 {
+	color: black;
+	padding-left: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.foot2 {
+	color: black;
+	margin: 0px;
+	padding-left: 35px;
+	padding-top: 10px;
 }
