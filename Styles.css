@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	background: teal;
+	overflow-x: hidden
 }
 
 header {
@@ -265,6 +266,11 @@ ul li {
 	{
 		margin: 0;
 		font-size: 12px;
+	}
+
+	.w3-content .w3-section .w3-code
+	{
+		margin-top: 0px !important;
 	}
 
 	.social
