@@ -225,6 +225,13 @@ ul li {
 	height: 150px;
 	}
 
+	nav
+	{
+		float: left;
+		margin-left: 50%;
+		transform: translateX(-250px);
+	}
+
 	nav .navbuttons
 	{
 		width: 550px;
