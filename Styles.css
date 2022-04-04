@@ -6,7 +6,6 @@ body {
 header {
 	background: #043434;
 	height: 80px;
-
 }
 
 header::after {
@@ -207,9 +206,62 @@ ul li {
 
 @media (max-width: 650px)
 {
-	.nav .navbuttons li
+	.logo 
 	{
-		display: flex;
-		flex-direction: row;
+	border: 3px solid white;
+	float: left;
+	width: 200px;
+	height: 60px;
+	padding: 5px;
+	margin: 10px;
+	margin-left: 50%;
+	transform: translateX(-92px);
+	}
+	
+
+	header 
+	{
+	background: #043434;
+	height: 150px;
+	}
+
+	nav .navbuttons
+	{
+		width: 550px;
+	}
+
+	.navbuttons li
+	{
+		margin-left: 20px;
+		margin-right: 40px;
+	}
+}
+
+@media (max-width: 550px)
+{
+	.social
+	{
+		margin-left: 50%;
+		width: 100%;
+	}
+
+	.social li
+	{
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	.foot1 
+	{
+	padding-left: 50px;
+	margin-left: -10px;
+	padding-bottom: 0px;
+	}
+	
+	.foot2 
+	{
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
 	}
 }
