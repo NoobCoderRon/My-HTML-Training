@@ -244,8 +244,29 @@ ul li {
 	}
 }
 
-@media (max-width: 550px)
+@media (max-width: 450px)
 {
+	header 
+	{
+	background: #043434;
+	height: auto;
+	}
+
+	nav .navbuttons
+	{
+		width: 300px;
+		margin-left: 50%;
+		transform: translateX(-50px);
+		display: flex;
+		flex-direction: column;
+	}
+
+	.navbuttons li
+	{
+		margin: 0;
+		font-size: 12px;
+	}
+
 	.social
 	{
 		margin-left: 50%;
